@@ -80,6 +80,21 @@ Model Evaluation
 Confusion Matrix: To evaluate the performance of the Logistic Regression model, a confusion matrix was used.
 Classification Report: Precision, recall, and F1-score were also calculated to assess the model.
 
+Added Visualizations:
+Confusion Matrix Heatmap:
+
+Visualizes the performance of the Logistic Regression model by showing true positives, false positives, true negatives, and false negatives.
+ROC Curve:
+
+Plots the true positive rate against the false positive rate for the Logistic Regression model, with the Area Under the Curve (AUC) score.
+KMeans Clustering Plot:
+
+Visualizes the clustering results of the KMeans algorithm, plotting the crime data points based on their latitude and longitude, with clusters represented by different colors.
+How to Interpret:
+Confusion Matrix Heatmap: Provides a clear view of how well the model distinguishes between open and closed cases.
+ROC Curve: Shows the trade-off between sensitivity (True Positive Rate) and specificity (False Positive Rate).
+KMeans Clustering: Reveals clusters in the data, showing how crimes are geographically grouped.
+
 Results:
 Accuracy: 85%
 Precision: 0.87
